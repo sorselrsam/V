@@ -38,7 +38,7 @@ async def fallen_st(_, message: Message):
         if len(message.text.split()) > 1:
             cmd = message.text.split(None, 1)[1]
             if cmd[0:3] == "inf":
-                m = await message.reply_text("⚡")
+                m = await message.reply_text("🎬")
                 query = (str(cmd)).replace("info_", "", 1)
                 query = f"https://www.youtube.com/watch?v={query}"
                 results = VideosSearch(query, limit=1)
@@ -52,19 +52,19 @@ async def fallen_st(_, message: Message):
                     link = result["link"]
                     published = result["publishedTime"]
                 searched_text = f"""
-‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓ ᥉ρᎥժᥱᖇ ⦔ 𖧊━‌‌‏⌯⊷≫
-⎊ **تتبع المعلومات ** 
+≪𝅘𝅥𝅯𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𝅘𝅥𝅯≫
+🌐 **تتبع المعلومات ** 
 
-⎊ **العنوان :** {title}
+✍️ **العنوان :** {titit}
 
-⎊ **المدة :** {duration} دقيقة
-⎊ **الآراء :** `{views}`
-⎊ **نشرت في :** {published}
-⎊ **الرابط :** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
-⎊ **القناة :** [{channel}]({channellink})
+🕦 **المدة :** {duration} دقيقة
+♻️ **الآراء :** `{views}`
+💻 **نشرت في :** {published}
+🖇️ **الرابط :** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+🗃️ **القناة :** [{channel}]({channellink})
 
-⎊ بحث بواسطة {BOT_NAME}
-‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓ ᥉ρᎥժᥱᖇ ⦔ 𖧊━‌‌‏⌯⊷≫"""
+🔍 بحث بواسطة {BOT_NAME}
+‌‌‏≪𝅘𝅥𝅯𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𝅘𝅥𝅯≫"""
                 key = InlineKeyboardMarkup(
                     [
                         [
