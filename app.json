@@ -1,7 +1,7 @@
 {
-    "name": "⦓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗣𝗜𝗗𝗘𝗥 ⦔",
+    "name": "⦓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗘𝗡𝗢𝗠 メ",
     "description": "اللهم صلي علي سيدنا محمد 🌺",
-    "logo": "https://graph.org/file/92e7f9503dc8352f65181.jpg",
+    "logo": "https://graph.org/file/fdc065a855d2c6b59ef96.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/EE_47",
+        "value": "https://t.me/Ve_m1",
         "required": false
       }
     },
